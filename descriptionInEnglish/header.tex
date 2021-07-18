@@ -1,0 +1,19 @@
+\newcommand{\paintInEnglish}[3]{
+    \begin{minipage}{#1}
+        \includegraphics[width=#1,height=#2]{#3}
+    \end{minipage} 
+}
+\newcommand{\myheaderInEnglish}{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}rr}
+  && \multirow{4}*{\paint{2.6cm}{3.2cm}{./image.jpg}}\\
+  \specialrule{0em}{0pt}{0pt}
+  \textbf{\href{http://herechen.github.io}{\LARGE Jason Zhang}} &  &\\
+   & 15810028083$\,${\color{labelgrey}(Tel)} & \\
+   Fanghua Road, Pudong New District, ShangHai$\,${\color{labelgrey}(Add.)} & \href{mailto:zhangzc@pku.edu.cn}{zhangzc@pku.edu.cn}$\,${\color{labelgrey}(Email)} & \\
+  \end{tabular*}\\\vspace{0.1in}
+%  \fancyfoot[L]{\footnotesize 最后更新: \today}
+%  \fancyfoot[R]{\footnotesize \url{http://example.com/resume-zh.pdf}}
+}
+
+\myheaderInEnglish
+
